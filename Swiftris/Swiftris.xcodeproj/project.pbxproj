@@ -14,6 +14,9 @@
 		3CB6DF711B73F33200A0871F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB6DF701B73F33200A0871F /* Images.xcassets */; };
 		3CB6DF741B73F33200A0871F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB6DF721B73F33200A0871F /* LaunchScreen.xib */; };
 		3CB6DF801B73F33200A0871F /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6DF7F1B73F33200A0871F /* SwiftrisTests.swift */; };
+		3CBE116F1B73FB6A0081EE17 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE116E1B73FB6A0081EE17 /* Sounds */; };
+		3CBE11711B73FB850081EE17 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE11701B73FB850081EE17 /* Sprites.atlas */; };
+		3CBE11731B73FBA50081EE17 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE11721B73FBA50081EE17 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		3CB6DF791B73F33200A0871F /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB6DF7E1B73F33200A0871F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB6DF7F1B73F33200A0871F /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
+		3CBE116E1B73FB6A0081EE17 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		3CBE11701B73FB850081EE17 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		3CBE11721B73FBA50081EE17 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 				3CB6DF6D1B73F33200A0871F /* Main.storyboard */,
 				3CB6DF701B73F33200A0871F /* Images.xcassets */,
 				3CB6DF721B73F33200A0871F /* LaunchScreen.xib */,
+				3CBE11701B73FB850081EE17 /* Sprites.atlas */,
+				3CBE116E1B73FB6A0081EE17 /* Sounds */,
 				3CB6DF631B73F33200A0871F /* Supporting Files */,
 			);
 			path = Swiftris;
@@ -93,6 +101,7 @@
 		3CB6DF631B73F33200A0871F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CBE11721B73FBA50081EE17 /* Images */,
 				3CB6DF641B73F33200A0871F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,7 +206,10 @@
 			files = (
 				3CB6DF741B73F33200A0871F /* LaunchScreen.xib in Resources */,
 				3CB6DF711B73F33200A0871F /* Images.xcassets in Resources */,
+				3CBE116F1B73FB6A0081EE17 /* Sounds in Resources */,
 				3CB6DF6F1B73F33200A0871F /* Main.storyboard in Resources */,
+				3CBE11731B73FBA50081EE17 /* Images in Resources */,
+				3CBE11711B73FB850081EE17 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
