@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-let NumberOf Columns: UInt32 = 6
+let NumberOfColors: UInt32 = 6
 
 enum BlockColor: Int, Printable {
     
