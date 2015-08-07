@@ -79,7 +79,7 @@ class Shape: Hashable, Printable {
         return "\(color) block facing \(orientation): \(blocks[FirstBlockIdx]), \(blocks[SecondBlockIdx]), \(blocks[ThirdBlockIdx]), \(blocks[FourthBlockIdx])"
     }
     
-    init(column:Int, row:Int, color: BlockColor, Orientation) {
+    init(column:Int, row:Int, color: BlockColor, orientation:Orientation) {
         self.color = color
         self.column = column
         self.row = row
