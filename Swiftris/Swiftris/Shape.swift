@@ -95,14 +95,3 @@ class Shape: Hashable, Printable {
 func ==(lhs: Shape, rhs: Shape) -> Bool {
     return lhs.row == rhs.row && lhs.column == rhs.column
 }
-
-
-
-
-
-
-
-
-
-
-
