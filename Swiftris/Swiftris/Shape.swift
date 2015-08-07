@@ -146,8 +146,8 @@ class Shape: Hashable, Printable {
             return JShape(column:startingColumn, row:startingRow)
         case 5:
             return SShape(column:startingColumn, row:startingRow)
-        case 6:
-            return ZquareShape(column:startingColumn, row:startingRow)
+        default:
+            return ZShape(column:startingColumn, row:startingRow)
         }
     }
 }
