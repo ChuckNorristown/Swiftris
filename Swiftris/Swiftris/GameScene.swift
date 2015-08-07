@@ -13,7 +13,7 @@ class GameScene: SKScene {
         fatalError("NSCoder not supported")
     }
     override init(size: CGSize) {
-        super.init(size: size: size)
+        super.init(size: size)
         
         anchorPoint = CGPoint(x: 0, y: 1.0)
         
